@@ -1,0 +1,91 @@
+/* css styling for h1 elements */
+nav {
+    background-color: darkgreen;
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: 175px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: white;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: darkgray;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid darkblue;;
+}
+footer{
+    padding: 10px;
+    background-color: darkgreen;
+    border: 2px solid darkblue;
+}
+footer p{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+footer ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+footer ul li{
+ list-style-type: none;
+    background-color: white;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+footer ul li:hover{
+    background-color: darkgray;
+}
+body {
+    font-family: Verdana;
+    background-color: black;
+}
+section {
+    text-align: center;
+    padding: 3px;
+    margin: 15px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.col_details {
+    column-count: 2;
+    column-rule: 2px solid darkblue;
+    column-gap: 50px;
+    padding: 2px;
+    margin: 2px;
+    color: white;
+   
+}
+.col_details1 {
+    column-count: 3;
+    column-rule: 2px solid darkblue;
+    column-gap: 50px;
+    padding: 2px;
+    margin: 2px;
+    color: white;
+}
